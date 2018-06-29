@@ -117,3 +117,32 @@ ul ul, ol ul {
         color: $nhsuk-grey-1;
     }
   }
+  // Styles for type 1 diabetes
+  //remove global bullets on links
+  ul {list-style: none;}
+  .grid-row::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .callout--attention {
+    border: 8px solid #0072ce;
+  }
+  .callout {
+    background-color: #fff;
+    padding: 32px;
+    h2 { margin-top:0;}
+    li {
+      list-style: none;
+      margin-top: 0;
+
+    }
+  }
+  .column--one-third {
+    float:left;
+    width: 33.33333%;
+    line-height: 32px;
+  }
+  .nhsuk-c-promo-v1 {
+    ul {padding-left:0;}
+  }
