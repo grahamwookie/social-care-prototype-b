@@ -221,8 +221,8 @@ router.get('/examples/social-care-prototype-a-parent', (req, res) => {
   res.render('examples/social-care-prototype-a-parent', {});
 });
 
-router.get('/examples/test-hub-nhs-in-england-child', (req, res) => {
-  res.render('examples/test-hub-nhs-in-england-child', {});
+router.get('/examples/sc-prototype-a-money-benefits', (req, res) => {
+  res.render('examples/sc-prototype-a-money-benefits', {});
 });
 
 router.get('/examples/test-general-eye-care', (req, res) => {
