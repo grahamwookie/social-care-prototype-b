@@ -1,0 +1,54 @@
+{% set title = '' %}
+{% set parent = 'The NHS in England' %}
+{% extends "includes/templates/hub.html"%}
+
+{% block breadcrumb %}
+<nav class="nhsuk-breadcrumb" role="Breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-o-width-container">
+        <ol>
+            <li><a href="#">Home</a></li>
+            <li><a href="/examples/social-care-prototype-a-parent">Social care</a></li>
+        </ol>
+        <p><a href="/examples/social-care-prototype-a-parent">Back to Social care</a></p>
+    </div>
+</nav>
+{% endblock %}
+
+{% block header %}
+    <!--<h1>Help with health costs </h1>
+    <div class="nhsuk-c-intro-image" style="background-image: url(../images/image-money.png)">
+        <div class="nhsuk-c-intro-image-inner">
+            <p class="nhsuk-heading-m">The following pages explain in full detail how to claim the money you're entitled to</p>
+        </div>
+    </div>-->
+    <h1>Caring for children and young people</h1>
+	<div class="nhsuk-reading-width">
+		<p class="nhsuk-body-l nhsuk-page-intro">Exerc itation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="nhsuk-reading-width">
+        <div class="nhsuk-c-promo-v1">
+            <h2 class="nhsuk-heading-s"><a href="#">Children and young peoples service</a></h2>
+            <p>Exerc itation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="nhsuk-c-promo-v1">
+            <h2 class="nhsuk-heading-s"><a href="#">Transition planning</a></h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+        </div>
+
+        <div class="nhsuk-c-promo-v1">
+            <h2 class="nhsuk-heading-s"><a href="#">How to care for a disabled child</a></h2>
+            <p>Excepteur sint occaecat cupidatat non proident.</p>
+        </div>
+
+        <div class="nhsuk-c-promo-v1">
+            <h2 class="nhsuk-heading-s"><a href="#">How to care for children with complex needs</a></h2>
+            <p>Aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+        </div>
+</div>
+
+{% endblock %}

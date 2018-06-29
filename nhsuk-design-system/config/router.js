@@ -225,6 +225,46 @@ router.get('/examples/sc-prototype-a-money-benefits', (req, res) => {
   res.render('examples/sc-prototype-a-money-benefits', {});
 });
 
+router.get('/examples/sc-prototype-a-types-care-equip', (req, res) => {
+  res.render('examples/sc-prototype-a-types-care-equip', {});
+});
+
+router.get('/examples/sc-prototype-a-caring-young-people', (req, res) => {
+  res.render('examples/sc-prototype-a-caring-young-people', {});
+});
+
+router.get('/examples/sc-prototype-a-support-carers', (req, res) => {
+  res.render('examples/sc-prototype-a-support-carers', {});
+});
+
+router.get('/examples/sc-prototype-a-advice-carers', (req, res) => {
+  res.render('examples/sc-prototype-a-advice-carers', {});
+});
+
+router.get('/examples/sc-prototype-a-care-after-hospital', (req, res) => {
+  res.render('examples/sc-prototype-a-care-after-hospital', {});
+});
+
+router.get('/examples/sc-prototype-a-acting-on-behalf', (req, res) => {
+  res.render('examples/sc-prototype-a-acting-on-behalf', {});
+});
+
+router.get('/examples/sc-prototype-a-getting-advice', (req, res) => {
+  res.render('examples/sc-prototype-a-getting-advice', {});
+});
+
+router.get('/examples/sc-prototype-a-abuse-neglect', (req, res) => {
+  res.render('examples/sc-prototype-a-abuse-neglect', {});
+});
+
+router.get('/examples/sc-prototype-a-getting-started', (req, res) => {
+  res.render('examples/sc-prototype-a-getting-started', {});
+});
+
+router.get('/examples/sc-prototype-a-planning-future', (req, res) => {
+  res.render('examples/sc-prototype-a-planning-future', {});
+});
+
 router.get('/examples/test-general-eye-care', (req, res) => {
   res.render('examples/test-general-eye-care', {});
 });

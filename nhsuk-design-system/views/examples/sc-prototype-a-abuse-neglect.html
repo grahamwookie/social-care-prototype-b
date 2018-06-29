@@ -1,0 +1,65 @@
+{% set title = 'Help with prescription costs' %}
+{% set parent = 'Help with health costs' %}
+{% extends "includes/templates/page-right-nav.html"%}
+
+{% block breadcrumb %}
+<nav class="nhsuk-breadcrumb" role="Breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-o-width-container">
+        <ol>
+            <li><a href="#">Home</a></li>
+			<li><a href="/examples/social-care-prototype-a-parent">Social care</a></li>
+        </ol>
+        <p><a href="/examples/social-care-prototype-a-parent">Back to Social care</a></p>
+    </div>
+</nav>
+{% endblock %}
+
+{% block header %}
+
+	<h1>Abuse and neglect of vulnerable adults</h1>
+	<div class="nhsuk-reading-width">
+		<p class="nhsuk-body-l nhsuk-page-intro">Prescription prepayment certificates (PPC) are available in England and can save you money. </p>
+	</div>
+
+{% endblock %}
+
+{% block sidebar %}
+<!--<h2 class="nhsuk-heading-s">In this section</h2>-->
+    <ul class="nhsuk-list-nav">
+  		<li><a href="/examples/test-hub-nhs-in-england-child" class="nhsuk-heading-m">Social care</a></li>
+  		<li><a href="#">Link</a></li>
+  		<li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+  		<li><strong>You're here</strong></li>
+  		<li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <section class="nhsuk-page-content__section-one">
+
+        <h2>H2 heading</h2>
+
+		<ul>
+			<li>current prescription charge – £8.80 per item (£17.60 per pair of elastic hosiery)</li>
+			<li>three-month PPC – £29.10; this will save you money if you need more than three prescribed items in three months </li>
+			<li>12-month PPC – £104.00; this will save you money if you need more than 12 prescribed items in a year</li>
+		</ul>
+
+		<p>PPCs are available by 10 monthly direct debit instalment payments. The certificates allow anyone to obtain all the prescriptions they need for £2 a week. </p>
+
+		<p>Find out more about the prescription prepayment certificate.</p>
+
+		<p>If you need to access the services below, the medicines you're prescribed are free:</p>
+
+		<ul>
+			<li>medicines administered at a hospital or an NHS walk-in centre</li>
+			<li>prescribed contraceptives</li>
+			<li>medicines personally administered by a GP </li>
+			<li>medicines supplied at a hospital or clinical commissioning group (CCG) clinic for the treatment of a sexually transmitted infection, tuberculosis, or a mental disorder for those subject to a supervised community treatment order </li>
+		</ul>
+
+    </section>
+
+{% endblock %}
