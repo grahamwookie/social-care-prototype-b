@@ -257,8 +257,8 @@ router.get('/examples/sc-prototype-a-abuse-neglect', (req, res) => {
   res.render('examples/sc-prototype-a-abuse-neglect', {});
 });
 
-router.get('/examples/sc-prototype-a-getting-started', (req, res) => {
-  res.render('examples/sc-prototype-a-getting-started', {});
+router.get('/examples/sc-prototype-a-get-started', (req, res) => {
+  res.render('examples/sc-prototype-a-get-started', {});
 });
 
 router.get('/examples/sc-prototype-a-planning-future', (req, res) => {
