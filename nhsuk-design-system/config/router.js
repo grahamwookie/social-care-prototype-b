@@ -217,8 +217,8 @@ router.get('/examples/test-hub-live-well-child', (req, res) => {
   res.render('examples/test-hub-live-well-child', {});
 });
 
-router.get('/examples/test-hub-nhs-in-england-parent', (req, res) => {
-  res.render('examples/test-hub-nhs-in-england-parent', {});
+router.get('/examples/social-care-prototype-a-parent', (req, res) => {
+  res.render('examples/social-care-prototype-a-parent', {});
 });
 
 router.get('/examples/test-hub-nhs-in-england-child', (req, res) => {
