@@ -1,0 +1,78 @@
+{% set title = 'Help with prescription costs' %}
+{% set parent = 'Help with health costs' %}
+{% extends "includes/templates/page-right-nav.html"%}
+
+{% block breadcrumb %}
+<nav class="nhsuk-breadcrumb" role="Breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-o-width-container">
+        <ol>
+            <li><a href="#">Home</a></li>
+			<li><a href="/examples/social-care-prototype-a-parent">Social care</a></li>
+        </ol>
+        <p><a href="/examples/social-care-prototype-a-parent">Back to Social care</a></p>
+    </div>
+</nav>
+{% endblock %}
+
+{% block header %}
+
+	<h1>Benefits for carers</h1>
+
+{% endblock %}
+
+{% block sidebar %}
+<!--<h2 class="nhsuk-heading-s">In this section</h2>-->
+    <ul class="nhsuk-list-nav">
+  		<li><a href="social-care-prototype-a-parent" class="nhsuk-heading-m">Social care</a></li>
+  		<li><a href="#">Link</a></li>
+  		<li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+  		<li><strong>You're here</strong></li>
+  		<li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <section class="nhsuk-page-content__section-one">
+      <p>You might not think of yourself a carer. But you probably are if you’re looking after someone regularly - including your spouse or a family member - because they’re ill or disabled.</p>
+      <p>As a carer, you may be entitled to one or more state benefits to help you with the costs.</p>
+      <h2>Carer's Allowance</h2>
+      <p><strong>What it is:</strong> Carer's Allowance is the main state benefit for carers. It's £64.60 a week.</p>
+      <p><strong>You can get it if:</strong> you look after someone for more than 35 hours a week.</p>
+      <p><strong>You can't get it if:</strong> you get more than £64.60 a week from certain other benefits. However, it's still worth applying as you may have what's called an 'underlying entitlement' to Carer's Allowance. This can help to increase other benefits you're getting.</p>
+      <p><a href="https://www.gov.uk/carers-allowance">How to claim Carer's Allowance</a> on Gov.UK</p>
+      <h2>Carer's Credit</h2>
+      <p><strong>What it is:</strong> A National Insurance (NI) contribution to help make sure you don't lose out on some social security benefits, such as the State Pension, because of gaps in your NI record.</p>
+      <p><strong>You can get it if:</strong> you look after someone for more than 20 hours a week and you don't get Carer's Allowance.</p>
+      <p><a href="https://www.gov.uk/carers-credit">How to claim Carer's Credit</a> on Gov.UK</p>
+      <h2>Carer Premium</h2>
+      <p><strong>What it is:</strong> An allowance that you get on top of some benefits.</p>
+      <p><strong>You can get it if:</strong> you already get a benefit such as income support or housing benefit.</p>
+      <p><strong>How to claim Carer Premium:</strong> Ask about it at your local Jobcentre Plus or Jobs and Benefits Office.</p>
+      <h2>Disability Living Allowance for Children</h2>
+      <p><strong>What it is:</strong> between £22.65 and £145.35 a week.</p>
+      <p><strong>You can get it if:</strong> you're the parent carer of a disabled child.</p>
+      <p><a href="https://www.gov.uk/disability-living-allowance-children">How to claim Disability Living Allowance</a> for Children on Gov.UK</p>
+      <h2>Check what benefits you can get</h2>
+      <div class="page-section">
+        <section class="callout component-information">
+          <div class="reading-width">
+            <p>Check if you're entitled to Carer's Allowance and other benefits with the Turn2us benefits calculator.</p>
+            <p><a href="https://benefits-calculator.turn2us.org.uk/AboutYou?utm_source=BAdviser&utm_medium=referral&utm_campaign=GovUK" class="button green-button">Use this benefits calculator</a></p>
+          </div>
+        </section>
+      </div>
+      <h2>Get a carer's assessment</h2>
+      <p>As a carer, you may be eligible for support from your local council. Before you receive any help from your local council, you need to have a carer's assessment. </p>
+      <p>Find out how to get a <a href="https://conditions/social-care-and-support/carers-assessment/">carer's assessment</a></p>
+      <h2>Get help and advice</h2>
+      <p>Get an expert benefits advice plus help filling in claim forms, from:</p>
+
+        <div class="nhsuk-c-review-datestamp">
+  				<p>Page last reviewed: 12/02/2016<br>
+  				Next review due: 01/02/2019</p>
+  			</div>
+    </section>
+
+{% endblock %}

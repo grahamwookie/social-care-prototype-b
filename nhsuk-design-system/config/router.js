@@ -265,8 +265,12 @@ router.get('/examples/sc-prototype-a-get-needs-assessment', (req, res) => {
   res.render('examples/sc-prototype-a-get-needs-assessment', {});
 });
 
-router.get('/examples/sc-prototype-a-gadgets-equipment', (req, res) => {
-  res.render('examples/sc-prototype-a-gadgets-equipment', {});
+router.get('/examples/sc-prototype-a-a-gadgets-equipment', (req, res) => {
+  res.render('examples/sc-prototype-a-a-gadgets-equipment', {});
+});
+
+router.get('/examples/sc-prototype-a-a-benefits-carers', (req, res) => {
+  res.render('examples/sc-prototype-a-benefits-carers', {});
 });
 
 router.get('/examples/sc-prototype-a-planning-future', (req, res) => {
