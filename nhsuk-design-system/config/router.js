@@ -261,8 +261,8 @@ router.get('/examples/sc-prototype-a-get-started', (req, res) => {
   res.render('examples/sc-prototype-a-get-started', {});
 });
 
-router.get('/examples/sc-prototype-a-get-needs-assessment', (req, res) => {
-  res.render('examples/sc-prototype-a-get-needs-assessment', {});
+router.get('/examples/sc-prototype-a-a-get-needs-assessment', (req, res) => {
+  res.render('examples/sc-prototype-a-a-get-needs-assessment', {});
 });
 
 router.get('/examples/sc-prototype-a-a-gadgets-equipment', (req, res) => {
