@@ -1,0 +1,95 @@
+{% set title = 'Help with prescription costs' %}
+{% set parent = 'Help with health costs' %}
+{% extends "includes/templates/page-right-nav.html"%}
+
+{% block breadcrumb %}
+<nav class="nhsuk-breadcrumb" role="Breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-o-width-container">
+        <ol>
+            <li><a href="#">Home</a></li>
+			<li><a href="/examples/social-care-prototype-a-parent">Social care</a></li>
+        </ol>
+        <p><a href="/examples/social-care-prototype-a-parent">Back to Social care</a></p>
+    </div>
+</nav>
+{% endblock %}
+
+{% block header %}
+
+	<h1>Gadgets and equipment to make life easier</h1>
+
+{% endblock %}
+
+{% block sidebar %}
+<!--<h2 class="nhsuk-heading-s">In this section</h2>-->
+    <ul class="nhsuk-list-nav">
+  		<li><a href="social-care-prototype-a-parent" class="nhsuk-heading-m">Social care</a></li>
+  		<li><a href="#">Link</a></li>
+  		<li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+  		<li><strong>You're here</strong></li>
+  		<li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <section class="nhsuk-page-content__section-one">
+      <h2>What happens in the assessment</h2>
+      <p>If you, or someone you know, struggles with everyday tasks, there might be gadgets or equipment available to help make life easier.</p>
+      <p>There’s a range of equipment to help, including</p>
+      <h3>Going to the toilet</h3>
+  		<ul>
+  			<li>a chair with hidden toilet (commode) - if getting to the toilet is difficult</li>
+        <li>push button to flush the toilet</li>
+        <li>padded toilet seats</li>
+  		</ul>
+      <h3>Using the bathroom</h3>
+  		<ul>
+  			<li>slip mat for the bath or shower</li>
+        <li>a rail to help you get out of the bath or shower</li>
+        <li>easy to turn handles for taps</li>
+  		</ul>
+      <h3>Cooking and eating</h3>
+  		<ul>
+  			<li>a kettle with a holder to make it easier to pour</li>
+        <li>knives and forks with handles to make them easier to hold</li>
+        <li>easy to grip measuring jugs or graters</li>
+        <li>two-handled cups</li>
+  		</ul>
+      <h3>Getting out of bed or out of a chair</h3>
+  		<ul>
+  			<li>a rail you attach to the bed (grab rail)</li>
+        <li>straps to help you lift your leg (leg lifters)</li>
+        <li>equipment to raise your bed</li>
+        <li>reclining chairs</li>
+  		</ul>
+      <h3>Getting dressed</h3>
+  		<ul>
+  			<li>hooks to help pull zips, undo buttons and pull jackets on</li>
+        <li>gadgets to help put socks, stockings and underwear on</li>
+  		</ul>
+      <h2>How to get gadgets and equipment</h2>
+      <p>Gadgets and equipment can be small or big and costs vary. These websites will give you an idea of the types of equipment available, what it costs and where to buy.</p>
+      <ul>
+        <li><a href="https://www.livingmadeeasy.org.uk">Living Made Easy</a>
+        <li><a href="https://asksara.dlf.org.uk">Ask Sara</a></li>
+      </ul>
+      <div class="page-section">
+        <section class="callout component-information">
+          <div class="reading-width">
+            <h3>How your council can help</h3>
+            <p>Your local council offers a service that assesses your home and recommends equipment or home adaptations to help. Assessments are free.</p>
+            <p>If you are eligible for help, It can also advise you about equipment you can get for free or on loan from your council.</p>
+            <p><a href="https://www.gov.uk/apply-home-equipment-for-disabled" class="button green-button">Apply for an assessment</a></p>
+          </div>
+        </section>
+      </div>
+
+        <div class="nhsuk-c-review-datestamp">
+  				<p>Page last reviewed: 12/02/2016<br>
+  				Next review due: 01/02/2019</p>
+  			</div>
+    </section>
+
+{% endblock %}

@@ -153,3 +153,30 @@ ul ul, ol ul {
     border-bottom: #d8dde0 4px solid;
     display: block;
 }
+.nhsuk-c-review-datestamp {
+    margin: 56px 0;
+}
+.nhsuk-c-review-datestamp::before {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 5px;
+    background-color: #005eb8;
+}
+.nhsuk-c-review-datestamp p {
+    font-size: .8em;
+}
+.component-primary-care {
+    border: 8px solid #0072ce;
+}
+.page-section {
+    margin-top: 32px;
+}
+.component-primary-care p {
+  margin-top: 0;
+}
+.component-information {
+  background-color: #f0f4f5;
+  border: solid #768692;
+  border-width: 0 0 0 4px;
+}
