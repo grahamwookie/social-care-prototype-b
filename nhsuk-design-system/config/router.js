@@ -270,7 +270,7 @@ router.get('/examples/sc-prototype-a-a-gadgets-equipment', (req, res) => {
 });
 
 router.get('/examples/sc-prototype-a-a-benefits-carers', (req, res) => {
-  res.render('examples/sc-prototype-a-benefits-carers', {});
+  res.render('examples/sc-prototype-a-a-benefits-carers', {});
 });
 
 router.get('/examples/sc-prototype-a-planning-future', (req, res) => {
