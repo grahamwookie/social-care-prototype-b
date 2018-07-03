@@ -37,8 +37,10 @@
 .o-list-sections>li {
     display: block;
 }
-
-ul, ul ul, ol ul, ul li {
+ul, ul li {
+  list-style: disc !important;
+}
+ul ul, ol ul{
     list-style: disc;
 }
 
@@ -132,9 +134,7 @@ ul, ul ul, ol ul, ul li {
     padding: 32px;
     h2 { margin-top:0;}
     li {
-      //list-style: none;
       margin-top: 0;
-
     }
   }
   .column--one-third {
