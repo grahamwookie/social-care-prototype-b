@@ -207,20 +207,6 @@ ul ul, ol ul{
   border-radius: 0;
   color: #fff;
 }
-.button:active {
-    box-shadow: 0 0 0 #007f3b;
-    top: 2px;
-}
-.button:hover, .button:focus {
-    background-color: #00662f;
-}
-
-.green-button a:hover {
-    background: #000 !important;
-    box-shadow: 0 0 0 4px #007f3b;
-    color: #212B32;
-    text-decoration: none;
-}
-.green-button {
-  color: #fff;
+.button:hover {
+  background-color: #00662f !important;
 }
