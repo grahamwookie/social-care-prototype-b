@@ -210,3 +210,19 @@ ul ul, ol ul{
 .button:hover {
   background-color: #00662f !important;
 }
+.green-button {
+  margin-top: 1.125em;
+}
+@media (min-width: 320px) {
+  .green-button {
+    width:240px !important;
+  }
+  .callout {
+    padding: 24px;
+  }
+}
+@media (min-width: 550px) {
+  .green-button {
+    width:320px;
+  }
+}
