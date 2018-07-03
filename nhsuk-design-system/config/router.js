@@ -273,6 +273,10 @@ router.get('/examples/sc-prototype-a-a-benefits-carers', (req, res) => {
   res.render('examples/sc-prototype-a-a-benefits-carers', {});
 });
 
+router.get('/examples/sc-prototype-a-a-home-adapt', (req, res) => {
+  res.render('examples/sc-prototype-a-a-home-adapt', {});
+});
+
 router.get('/examples/sc-prototype-a-planning-future', (req, res) => {
   res.render('examples/sc-prototype-a-planning-future', {});
 });
