@@ -212,16 +212,16 @@ ul ul, ol ul{
   color: #fff;
 }
 .button:active {
-    box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 #007f3b;
     top: 2px;
 }
 .button:hover, .button:focus {
-    background-color: #000;
+    background-color: #00662f;
 }
 
 a:hover {
     background: #000 !important;
-    box-shadow: 0 0 0 4px #ffcd60;
+    box-shadow: 0 0 0 4px #007f3b;
     color: #212B32;
     text-decoration: none;
 }
