@@ -180,10 +180,6 @@ ul ul, ol ul{
   margin-top: 0;
 }
 .button {
-    font-size: 20px;
-    line-height: 32px;
-}
-.button {
   font-family: "Frutiger W01";
   font-size: 20px;
   font-weight: 600;
@@ -219,9 +215,12 @@ ul ul, ol ul{
     background-color: #00662f;
 }
 
-a:hover {
+.green-button a:hover {
     background: #000 !important;
     box-shadow: 0 0 0 4px #007f3b;
     color: #212B32;
     text-decoration: none;
+}
+.green-button {
+  color: #fff;
 }
