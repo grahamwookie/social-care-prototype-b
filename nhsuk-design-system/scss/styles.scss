@@ -214,15 +214,18 @@ ul ul, ol ul{
   margin-top: 1.125em;
 }
 @media (min-width: 320px) {
-  .green-button {
-    width:240px !important;
-  }
+  .green-button { width:240px; }
   .callout {
     padding: 24px;
   }
 }
 @media (min-width: 550px) {
   .green-button {
-    width:320px;
+    width:344px;
+  }
+}
+@media (min-width: 1000px) {
+  .green-button {
+    width:344px;
   }
 }
