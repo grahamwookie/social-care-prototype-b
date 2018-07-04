@@ -144,7 +144,7 @@ ul ul, ol ul{
   }
 .nhsuk-c-promo-white {
     padding: 16px 24px;
-    margin-bottom: 48px;
+    margin-bottom: 0;
     background: #fff;
     border-bottom: #d8dde0 4px solid;
     display: block;
@@ -227,5 +227,25 @@ ul ul, ol ul{
 @media (min-width: 1000px) {
   .green-button {
     width:350px;
+  }
+}
+.top-task-box {
+  background-color: #D8DDE0;
+  padding: 24px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+@media (min-width: 550px) {
+  .top-task-box {
+  }
+}
+.get-started {
+  border-left: 8px solid #005EB8;
+  padding-left: 16px;
+  margin-left: 16px;
+  margin-bottom:48px;
+
+  .nhsuk-c-promo-v1 {
+    margin-bottom: 0;
   }
 }
