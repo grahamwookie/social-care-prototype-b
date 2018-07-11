@@ -193,12 +193,21 @@ ul ul, ol ul{
 }
 .get-started {
   border-left: 8px solid #005EB8;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-left: 16px;
   margin-bottom:48px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
   @media (min-width: 320px) {
     border-left: 8px solid #005EB8;
+  }
+}
+.nhsuk-heading-s {
+  @media (min-width: 320px) {
+  }
+  @media (min-width: 550px) {
+    font-size: 1.684em;
   }
 }
 .nhsuk-c-review-datestamp {
