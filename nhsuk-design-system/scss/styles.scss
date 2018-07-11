@@ -43,7 +43,14 @@ ul ul, ol ul{
 .no-list-style {
     list-style: none;
 }
-
+.nhsuk-heading-xl, h1 {
+  @media (min-width: 320px) {
+    font-size: 1.684em;
+  }
+  @media (min-width: 550px) {
+    font-size: 2.526em;
+  }
+}
 .nhsuk-page-content__section-one > *:first-child {
     margin-top: 0; //added a class of nhsuk-page-content__section-one to remove margin-top from first element within the section
 }
@@ -143,8 +150,16 @@ ul ul, ol ul{
     line-height: 32px;
   }
   .nhsuk-c-promo-v1 {
-    ul {padding-left:0;}
+    @media (min-width: 320px) {
+      margin-bottom: 16px;
+    }
+    @media (min-width: 550px) {
+      margin-bottom: 48px;
+    }
   }
+.nhsuk-c-promo-v1 ul {
+  padding-left:0;
+}
 .nhsuk-c-promo-white {
     margin-bottom: 0;
     background: #fff;
@@ -163,7 +178,7 @@ ul ul, ol ul{
     @media (min-width: 550px) {
       h2{
         font-size: 1em;
-        height: 64px;
+        height: 58px;
       }
     }
 }
@@ -171,7 +186,7 @@ ul ul, ol ul{
   background-color: #E2E2E2;
 
   @media (min-width: 320px) {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
 
   @media (min-width: 550px) {
@@ -191,20 +206,33 @@ ul ul, ol ul{
     margin-left: 16px;
   }
 }
+@media (min-width: 320px) {
+  .top-task-box:first-child {
+    padding-bottom: 0;
+  }
+}
+
 .get-started {
   border-left: 8px solid #005EB8;
-  padding-left: 24px;
   margin-left: 16px;
-  margin-bottom:48px;
   padding-top: 8px;
   padding-bottom: 8px;
+  margin-bottom:48px;
 
   @media (min-width: 320px) {
     border-left: 8px solid #005EB8;
+    padding-left: 16px;
+  }
+  @media (min-width: 550px) {
+    padding-left: 24px;
   }
 }
-.nhsuk-heading-s {
+.get-started .nhsuk-c-promo-v1 {
+  margin-bottom: 16px;
+}
+.get-started .nhsuk-heading-s {
   @media (min-width: 320px) {
+    font-size: 1.263em;
   }
   @media (min-width: 550px) {
     font-size: 1.684em;
@@ -293,7 +321,6 @@ ul ul, ol ul{
 
 @media (min-width: 550px) {
   .nhsuk-c-promo-v1 {
-    margin-bottom: 16px;
     ul {
       margin-top: 16px;
     }
