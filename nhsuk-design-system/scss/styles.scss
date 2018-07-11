@@ -40,6 +40,9 @@
 ul ul, ol ul{
     list-style: disc;
 }
+.no-list-style {
+    list-style: none;
+}
 
 .nhsuk-page-content__section-one > *:first-child {
     margin-top: 0; //added a class of nhsuk-page-content__section-one to remove margin-top from first element within the section
@@ -146,8 +149,19 @@ ul ul, ol ul{
     padding: 16px 24px;
     margin-bottom: 0;
     background: #fff;
-    border-bottom: #d8dde0 4px solid;
     display: block;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-bottom: 2px solid;
+}
+.top-task-box--container {
+  background-color: #E2E2E2;
+}
+.top-task-box {
+  padding: 24px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 .nhsuk-c-review-datestamp {
     margin: 56px 0;
@@ -218,6 +232,14 @@ ul ul, ol ul{
   .callout {
     padding: 18px;
   }
+  .nhsuk-c-promo-white {
+    h2 {}
+  }
+  .top-task-box {
+    padding-top: 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 @media (min-width: 550px) {
   .green-button {
@@ -229,27 +251,27 @@ ul ul, ol ul{
     width:350px;
   }
 }
-.top-task-box--container {
-  background-color: #D8DDE0;
-  margin-bottom: 48px;
-}
-.top-task-box {
-  padding: 24px;
-  margin-right: 16px;
-  margin-left: 16px;
-}
+
 @media (min-width: 550px) {
-  .top-task-box {
-
+  .get-started {
+    border-left: 8px solid #005EB8;
+    padding-left: 16px;
+    margin-left: 16px;
+    margin-bottom:48px;
   }
-}
-.get-started {
-  border-left: 8px solid #005EB8;
-  padding-left: 16px;
-  margin-left: 16px;
-  margin-bottom:48px;
-
   .nhsuk-c-promo-v1 {
-    margin-bottom: 0;
+    margin-bottom: 16px;
+    ul {
+      margin-top: 16px;
+    }
+    ul li {
+      //display: inline-block;
+      padding-right: 16px;
+    }
+    .nshuk-c-promo-white {
+    }
+  }
+  .top-task-box--container {
+    margin-bottom: 48px;
   }
 }
