@@ -154,6 +154,17 @@ ul ul, ol ul{
     border-radius: 8px;
     border-width: 2px;
     border-bottom: 2px solid;
+    h2{
+      font-size: 1.15789em;
+      height: 54px;
+    }
+
+    @media (min-width: 320px) {
+      h2 {
+        font-size: 1em;
+        height: 24px;
+       }
+    }
 }
 .top-task-box--container {
   background-color: #E2E2E2;
@@ -162,6 +173,14 @@ ul ul, ol ul{
   padding: 24px;
   margin-right: 16px;
   margin-left: 16px;
+
+  @media (min-width: 320px) {
+    .top-task-box {
+      padding-top: 16px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
 }
 .nhsuk-c-review-datestamp {
     margin: 56px 0;
@@ -232,11 +251,6 @@ ul ul, ol ul{
   .callout {
     padding: 18px;
   }
-  .top-task-box {
-    padding-top: 16px;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 @media (min-width: 550px) {
   .green-button {
@@ -265,10 +279,5 @@ ul ul, ol ul{
       //display: inline-block;
       padding-right: 16px;
     }
-    .nshuk-c-promo-white {
-    }
-  }
-  .top-task-box--container {
-    margin-bottom: 48px;
   }
 }
