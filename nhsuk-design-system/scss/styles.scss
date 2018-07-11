@@ -155,19 +155,23 @@ ul ul, ol ul{
     border-width: 2px;
     border-bottom: 2px solid;
     h2{
-      font-size: 1.15789em;
-      height: 54px;
+      font-size: 1em;
+      height: 54px !important;
     }
 
     @media (min-width: 320px) {
       h2 {
         font-size: 1em;
-        height: 24px;
        }
     }
 }
 .top-task-box--container {
   background-color: #E2E2E2;
+
+  @media (min-width: 550px) {
+    margin-bottom: 48px;
+  }
+
 }
 .top-task-box {
   padding: 24px;
