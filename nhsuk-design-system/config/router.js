@@ -233,6 +233,10 @@ router.get('/examples/sc-prototype-a-caring-young-people', (req, res) => {
   res.render('examples/sc-prototype-a-caring-young-people', {});
 });
 
+router.get('/examples/sc-prototype-a-a-start-page', (req, res) => {
+  res.render('examples/sc-prototype-a-a-start-page', {});
+});
+
 router.get('/examples/sc-prototype-a-support-carers', (req, res) => {
   res.render('examples/sc-prototype-a-support-carers', {});
 });

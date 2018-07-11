@@ -1,0 +1,44 @@
+{% set title = 'Benefits for carers' %}
+{% set parent = 'Support for carers' %}
+{% extends "includes/templates/page-right-nav.html"%}
+
+{% block breadcrumb %}
+<nav class="nhsuk-breadcrumb" role="Breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-o-width-container">
+        <ol>
+            <li><a href="#">Home</a></li>
+			      <li><a href="/examples/social-care-prototype-a-parent">Care and support</a></li>
+            <li><a href="/examples/sc-prototype-a-support-carers">Support for carers</a></li>
+        </ol>
+        <p><a href="/examples/sc-prototype-a-support-carers">Back to Support for carers</a></p>
+    </div>
+</nav>
+{% endblock %}
+
+{% block header %}
+
+	<h1>Social Care - Orientating mode</h1>
+
+{% endblock %}
+
+{% block content %}
+    <section class="nhsuk-page-content__section-one">
+      <h2>Draft hypothesis</h2>
+      <p>We believe that a orientation feature on the level 1 hub page will</p>
+      <ul style="list-style:disc;">
+        <li>Help those people who don’t understand what we mean by ‘carer’</li>
+        <li>Help those people who aren’t sure what care and support options there are available to them</li>
+        <li>Help those people who aren’t sure what care and support entitlements there are</li>
+        <li>Help those people who don’t know who delivers the care and support </li>
+        <li>
+          <ul>
+            <li>and who to speak when they have a need</li>
+            <li>and know who to apply with when they have a need</li>
+          </ul>
+        </li>
+      </ul>
+
+
+    </section>
+
+{% endblock %}
