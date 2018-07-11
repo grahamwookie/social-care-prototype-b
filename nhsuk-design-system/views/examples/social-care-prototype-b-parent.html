@@ -1,0 +1,125 @@
+{% set title = 'Care and support' %}
+{% set parent = '' %}
+{% extends "includes/templates/hub.html"%}
+
+{% block breadcrumb %}
+<nav class="nhsuk-breadcrumb" role="Breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-o-width-container">
+        <ol>
+            <li><a href="#">Home</a></li>
+        </ol>
+        <p><a href="#">Back to Home</a></p>
+    </div>
+</nav>
+{% endblock %}
+
+{% block header %}
+    <!--<h1>The NHS in England</h1>
+    <div class="nhsuk-c-intro-image" style="background-image: url(../images/image-nurse.png)">
+        <div class="nhsuk-c-intro-image-inner">
+            <p class="nhsuk-heading-m">Everything you need to know about the health service and what you can get from it</p>
+        </div>
+    </div>-->
+  <h1>Care and support guide</h1>
+	<div class="nhsuk-reading-width">
+		<p class="nhsuk-body-l nhsuk-page-intro">If you or someone you know needs help with day-to-day living because of illness or disability, this website explains your options and where you can get support.</p>
+	</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="nhsuk-o-grid">
+  <div class="nhsuk-o-grid__item get-started" style="margin-bottom:48px;">
+    <div class="nhsuk-c-promo-v1">
+      <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-get-started">Getting started</a></h2>
+      <p>Find out about the help you can get, the things you can do yourself and how care and support funding works.</p>
+      <ul>
+        <li><a href="">Introduction to care and support</a></li>
+        <li><a href="">Options for paying for care</a></li>
+        <li><a href="">Getting a needs assessment</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="nhsuk-o-grid top-task-box--container ">
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third top-task-box">
+    <a href="#" class="nhsuk-c-promo-white">
+      <div class="nhsuk-c-promo-white-inner">
+        <h2 class="nhsuk-heading-s">Helplines and forums</h2>
+      </div>
+    </a>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third top-task-box">
+    <a href="#" class="nhsuk-c-promo-white">
+      <div class="nhsuk-c-promo-white-inner">
+        <h2 class="nhsuk-heading-s">Your care after discharge from hospital</h2>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="nhsuk-o-grid">
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-getting-advice">Getting help and advice</a></h2>
+          <p>Where you can get help for yourself or someone you care for.</p>
+      </div>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-types-care-equip">Types of care and equipment</a></h2>
+          <p>Includes care homes, carers, products and services.</p>
+      </div>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-money-benefits">Money and benefits</a></h2>
+          <p>How to pay for care and support, and where you can get help with costs.</p>
+      </div>
+  </div>
+</div>
+
+
+<div class="nhsuk-o-grid">
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-care-after-hospital">Care after a hospital stay</a></h2>
+          <p>What to expect when leaving hospital, including support afterwards.</p>
+      </div>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-support-carers">Support for carers</a></h2>
+          <p>Help and support if you care for someone else.</p>
+      </div>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-advice-carers">Advice for carers</a></h2>
+          <p>Practical tips to help you look after someone else.</p>
+      </div>
+  </div>
+</div>
+<div class="nhsuk-o-grid">
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-caring-young-people">Children and young people</a></h2>
+          <p>Services, support and tips if you care for someone under 21(?).</p>
+      </div>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-acting-on-behalf">Acting on behalf of someone else</a></h2>
+          <p>Powers of attorney and making decisions for someone else.</p>
+      </div>
+  </div>
+  <div class="nhsuk-o-grid__item nhsuk-o-grid__item--one-third">
+      <div class="nhsuk-c-promo-v1">
+          <h2 class="nhsuk-heading-s"><a href="sc-prototype-a-acting-on-behalf">Planning for your future care needs</a></h2>
+          <p>How to plan for the future if you think you might need care and support one day.</p>
+      </div>
+  </div>
+</div>
+
+{% endblock %}

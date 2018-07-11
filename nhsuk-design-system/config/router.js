@@ -221,6 +221,10 @@ router.get('/examples/social-care-prototype-a-parent', (req, res) => {
   res.render('examples/social-care-prototype-a-parent', {});
 });
 
+router.get('/examples/social-care-prototype-b-parent', (req, res) => {
+  res.render('examples/social-care-prototype-b-parent', {});
+});
+
 router.get('/examples/sc-prototype-a-money-benefits', (req, res) => {
   res.render('examples/sc-prototype-a-money-benefits', {});
 });
