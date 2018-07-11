@@ -146,7 +146,6 @@ ul ul, ol ul{
     ul {padding-left:0;}
   }
 .nhsuk-c-promo-white {
-    padding: 16px 24px;
     margin-bottom: 0;
     background: #fff;
     display: block;
@@ -154,15 +153,18 @@ ul ul, ol ul{
     border-radius: 8px;
     border-width: 2px;
     border-bottom: 2px solid;
-    h2{
-      font-size: 1em;
-      height: 54px !important;
-    }
 
     @media (min-width: 320px) {
       h2 {
-        font-size: 1em;
+        line-height: 1em;
        }
+    }
+    @media (min-width: 550px) {
+      h2{
+        font-size: 1em;
+        line-height: 1.4em;
+        height: 64px;
+      }
     }
 }
 .top-task-box--container {
@@ -174,16 +176,16 @@ ul ul, ol ul{
 
 }
 .top-task-box {
-  padding: 24px;
-  margin-right: 16px;
-  margin-left: 16px;
 
   @media (min-width: 320px) {
-    .top-task-box {
-      padding-top: 16px;
-      margin-left: 0;
-      margin-right: 0;
-    }
+    padding-top: 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @media (min-width: 550px) {
+    padding: 24px;
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }
 .nhsuk-c-review-datestamp {
