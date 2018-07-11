@@ -156,13 +156,13 @@ ul ul, ol ul{
 
     @media (min-width: 320px) {
       h2 {
-        line-height: 1em;
+        line-height: 1.4em;
+        height: 34px;
        }
     }
     @media (min-width: 550px) {
       h2{
         font-size: 1em;
-        line-height: 1.4em;
         height: 64px;
       }
     }
@@ -170,22 +170,35 @@ ul ul, ol ul{
 .top-task-box--container {
   background-color: #E2E2E2;
 
+  @media (min-width: 320px) {
+    margin-bottom: 18px;
+  }
+
   @media (min-width: 550px) {
     margin-bottom: 48px;
   }
-
 }
 .top-task-box {
-
   @media (min-width: 320px) {
     padding-top: 16px;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 16px;
   }
   @media (min-width: 550px) {
     padding: 24px;
     margin-right: 16px;
     margin-left: 16px;
+  }
+}
+.get-started {
+  border-left: 8px solid #005EB8;
+  padding-left: 16px;
+  margin-left: 16px;
+  margin-bottom:48px;
+
+  @media (min-width: 320px) {
+    border-left: 8px solid #005EB8;
   }
 }
 .nhsuk-c-review-datestamp {
@@ -270,12 +283,6 @@ ul ul, ol ul{
 }
 
 @media (min-width: 550px) {
-  .get-started {
-    border-left: 8px solid #005EB8;
-    padding-left: 16px;
-    margin-left: 16px;
-    margin-bottom:48px;
-  }
   .nhsuk-c-promo-v1 {
     margin-bottom: 16px;
     ul {
